@@ -1,0 +1,203 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+*{
+    text-transform: capitalize;
+    margin: 0;
+    padding:0;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+*{
+    text-transform: capitalize;
+    margin: 0;
+    padding:0;
+    font-family: 'Montserrat Alternates', sans-serif;
+    box-sizing: border-box;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px;
+}
+.head .left h1{
+    font-size:50px;
+    padding-left: 15px;
+    
+}
+.head .left h1 i{
+    color:rgb(175, 24, 16);
+}
+header{
+    
+    background-color:rgb(196, 233, 233);
+    
+
+    
+}
+
+ul{
+    display:flex;
+    list-style-type: none;
+    align-items: center;
+}
+ul li a{
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display:inline-block;
+}
+ul li a:hover{
+    color:rgb(8, 182, 171);
+    transition:0.5s;
+}
+
+
+.right button{
+    background-color:white;
+    border:none;
+    color: black;
+    font-weight: bold;
+    display:inline-block;
+    margin-top:20px;
+    margin-right:20px;
+    border-radius: 5px;
+    padding: 8px;
+    
+}
+.right button:hover{
+    color: rgb(255, 255, 255);
+    background-color:rgb(8, 182, 171);
+    cursor: pointer;
+}  
+
+
+
+main{
+    background-color: rgb(221, 203, 203);
+    display: flex;
+    border: 3px solid orange;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.main-image{
+    border-radius: 5px;
+    max-width: 500px;
+    height: auto;
+   
+}
+.content-left{
+    width:30%;
+}
+main h1{
+    font-size:50px;
+    color: black;
+
+}
+main h2{
+    color: orangered;
+    font-size:30px;
+    
+}
+main p{
+    font-size:14px;
+    color:rgb(77, 54, 12);
+
+   
+}
+.btn{
+    margin-top: 20px;
+    padding: 20px 20px;
+    background-color: rgb(220, 69, 19);
+    color:white;
+    outline: none;
+    border:none;
+    font-weight: 550;
+    border-radius:50px;
+
+}
+.btn:hover{
+    padding: 20px 20px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(220, 69, 19);
+    outline: none;
+    border:none;
+    font-weight: 550;
+    border-radius:50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.signup-btn{
+    padding: 20px 20px;
+    background-color: rgb(220, 69, 19);
+    color:white;
+    outline: none;
+    border:none;
+    font-weight: 550;
+    border-radius:50px;
+}
+.signup-btn:hover{
+    padding: 20px 20px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(220, 69, 19);
+    outline: none;
+    border:none;
+    font-weight: 550;
+    border-radius:50px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: auto;
+}
