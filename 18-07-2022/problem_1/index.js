@@ -9,3 +9,4 @@ function isArray(arr1, arr2) {
 console.log(isArray([1, 8, 7, 8],
     [5, 8, 7, 1]));
 exports.isArray = isArray
+
