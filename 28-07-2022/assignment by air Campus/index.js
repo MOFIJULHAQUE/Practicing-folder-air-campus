@@ -62,14 +62,16 @@ var add_word = document. createTextNode("This is my first Assignment");
 
 
 
-// //7th task(doubt)
+//7th task
 var tag = document. createElement("h1"); // <p></p>
 var text = document. createTextNode("My Experience with AirCampus");
 tag. appendChild(text); // <p>My Experience with AirCampus</p>
 var element = document. querySelectorAll("div")[9];// <div> <p>My Experience with AirCampus</p> </div>
-var inner = element. appendChild(tag).innerText; //My Experience with AirCampus
-// var underline = inner.createElement("U")
-// console.log(underline);
+var underline = element. appendChild(tag).style.textDecoration='underline'; //My Experience with AirCampus
+var underline = element. appendChild(tag).style.fontWeight='bold';
+var underline = element. appendChild(tag).style.fontSize='50px';
+var underline = element. appendChild(tag).style.color='aqua';
+
 
 
 
@@ -80,5 +82,5 @@ var inner = element. appendChild(tag).innerText; //My Experience with AirCampus
 
 
 //8th task
-console.log(document.getElementsByTagName('p')
-[3].innerText='Super Experience');
+// console.log(document.getElementsByTagName('p')
+// [3].innerText='Super Experience');
