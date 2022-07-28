@@ -52,11 +52,12 @@ console.log(document.querySelector('#id1').append('AirCampus'));
 
 //6th task(doubt)
 
-var tag_0 = document. createElement("div");
-var add_class = tag_0.classList.add('new_html');
-var p = document.createElement("p");
-var add_word = document. createTextNode("This is my first Assignment");
+// var tag_0 = document. createElement("div");
+// var add_class = tag_0.classList.add('new_html');
+// var p = document.createElement("p");
+// var add_word = document. createTextNode("This is my first Assignment");
 
+document.querySelectorAll("div")[8].innerHTML="<div class='new_html'><p>This is my first assignment</p></div>"
 
 
 
@@ -82,5 +83,5 @@ var underline = element. appendChild(tag).style.color='aqua';
 
 
 //8th task
-// console.log(document.getElementsByTagName('p')
-// [3].innerText='Super Experience');
+console.log(document.getElementsByTagName('p')[1].innerText='super experience'
+);
