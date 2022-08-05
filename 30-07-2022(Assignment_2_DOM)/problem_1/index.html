@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Adding and Removing items </h1>
+
+    <input type="text" placeholder="Enter your name" required>
+    <input type="email" placeholder="Email Id" required>
+    <input type="text" placeholder="Contact Number" required>
+    <button type="">ADD</button>
+
+
+    <table></table>
+
+
+
+
+    <script>
+
+
+
+
+        let div = document.querySelector("div");
+        let button = document.querySelector("button");
+        button.addEventListener("click", myFunction());
+
+
+        function myFunction() {
+
+
+
+
+            let name = document.querySelector("input[placeholder='Enter your name']");
+            let email = document.querySelector("input[placeholder='Email Id']");
+            let number = document.querySelector("input[placeholder='Contact Number']");
+
+            let name_data = name.value;
+            let email_data = email.value;
+            let number_data = number.value;
+
+
+            table.innerText += `Name :- ${name_data} Email :- ${email_data} Number :- ${number_data}`
+
+
+
+            
+        }
+
+    </script>
+</body>
+
+</html>

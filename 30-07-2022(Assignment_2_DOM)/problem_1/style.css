@@ -1,0 +1,23 @@
+body{
+    background: linear-gradient(65deg,rgb(181,218,731),rgb(216,43,483));
+    text-align: center;
+}
+body  input{
+    padding: 10px;
+    background-color:rgb(225, 177, 169);
+    border-radius: 15px;
+    border: 7px solid rgb(171, 46, 24);
+    margin-left: 35px;
+    width: 250px;
+    
+}
+body  button{
+    padding: 10px;
+    background-color:rgb(225, 177, 169);
+    border-radius: 15px;
+    border: 7px solid black;
+    margin-left: 35px;
+    font-weight: bold;
+
+
+}
