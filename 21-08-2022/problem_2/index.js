@@ -6,3 +6,4 @@ for(let i=0;i<no.length;i++){
     reverse = no[i]+ reverse;
 }
 console.log(reverse);
+
